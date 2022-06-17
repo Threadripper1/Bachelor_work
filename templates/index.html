@@ -27,7 +27,7 @@
 
             <nav class="navbar navbar-expand-lg bg-light shadow-lg">
                 <div class="container">
-                    <a class="navbar-brand" href="index.html">
+                    <a class="navbar-brand" href="/.">
                         <strong>Deep-Learning-Based CAPTCHA Solver</strong>
                     </a>
 
@@ -57,7 +57,7 @@
                                 <div class="row">
                                     <div class="col-lg-12 col-6">
                                         <label for="link" class="form-label">Link <sup class="text-danger">*</sup></label>
-                                        <input type="text" name="link" id="link" pattern="(^http[a-zA-Z\/:.0-9-?=]*)" class="form-control" placeholder="Link to the picture" required>
+                                        <input type="text" name="link" id="link" class="form-control" placeholder="Link to the picture" required oninvalid="this.setCustomValidity('Please fill out the field')" oninput="setCustomValidity('')" />
                                     </div>
                                     <div class="col-lg-5 col-12 mx-auto mt-5">
                                         <button type="submit" class="form-control">Get answer</button>
@@ -76,7 +76,7 @@
                 <div class="container mb-5 pb-lg-5">
                     <div class="row">
                         <div class="col-12">
-                            <h3 class="mb-3" data-aos="fade-up">Author the bachelor work</h3>
+                            <h3 class="mb-3" data-aos="fade-up">Author of the work</h3>
                         </div>
                         <div class="col-lg-6 col-12 mt-lg-3 mb-lg-5">
                             <p data-aos="fade-up" data-aos-delay="500">The work was created by student Kolomiiets Dmytro. Into the work used to artificial neural network. All work based on the deep learning which scanned a collection captcha-images. Was used several libraries:

@@ -9,10 +9,10 @@ git clone https://github.com/Threadripper1/Bachelor_work.git
 ```
 ###### Step 2 - Extracting Dataset:
 ```
-docker build -t sis-captcha-solver .
+docker build -t captcha-solve .
 ```
 
 ###### Step 2 - Starting docker container with port :5000
 ```
-docker run --rm -it -p 5000:5000 sis-captcha-solver
+docker run --rm -it -p 5000:5000 captcha-solve
 ```
